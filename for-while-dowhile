@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i = 2;
+    // while (i <= 5)
+    //{                                   // check
+    //    cout << "Striver" << i << endl; // print
+    //    i++;                            // increment
+    // }
+    // return 0;
+
+    // do it first then go to while and check
+
+    do
+    {
+        cout << "Striver" << i << endl; // print
+        i++;
+    } while (i <= 1);
+}
